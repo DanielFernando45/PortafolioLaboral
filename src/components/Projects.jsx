@@ -7,23 +7,23 @@ const Projects = () => {
     {
       title: "Intranet Empresarial",
       description: "Desarrollo completo de una intranet corporativa con backend y frontend personalizados para gestión interna de la empresa.",
-      tech: ["React", "Node.js", "MySQL", "Docker", "Tailwind"],
+      tech: ["React", "Nest.js", "MySQL", "Docker", "Tailwind"],
       link: "https://intranet.alejandriaconsultora.com/",
       icon: <Globe className="h-6 w-6" />,
       color: "bg-blue-100 text-blue-600"
     },
     {
-      title: "Aplicación Móvil Empresarial",
-      description: "Aplicación Android completa y funcional desarrollada para automatizar procesos internos de la empresa.",
-      tech: ["Android", "Java/Kotlin", "API REST", "Firebase"],
-      link: "https://play.google.com/store/apps/details?id=com.aleja.pe&hl=es_PE",
-      icon: <Smartphone className="h-6 w-6" />,
-      color: "bg-green-100 text-green-600"
+      title: "Web ",
+      description: "Desarrollo de una aplicación web responsiva para la visualización de servicios de la empresa.",
+      tech: ["React","Tailwind","SEO"],
+      link: "https://alejandriaconsultora.com/",
+      icon: <Globe className="h-6 w-6" />,
+      color: "bg-blue-100 text-blue-600"
     },
     {
       title: "ERP Personalizado",
       description: "Diseño y desarrollo de un sistema ERP con análisis de procesos y diseño UI/UX en Figma.",
-      tech: ["Figma", "React", "Nest.js", "PostgreSQL"],
+      tech: ["Figma"],
       icon: <Code className="h-6 w-6" />,
       color: "bg-purple-100 text-purple-600"
     }

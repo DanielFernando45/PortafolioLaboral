@@ -1,6 +1,7 @@
 // components/Hero.jsx
 import React from 'react';
 import { ArrowRight, Code, Server, Smartphone } from 'lucide-react';
+import profileImage from '../assets/perfil.png';
 
 const Hero = () => {
   return (
@@ -44,7 +45,7 @@ const Hero = () => {
           <div className="md:w-2/5">
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 flex items-center justify-center text-white text-6xl font-bold">
-                DP
+                <img src={profileImage} alt="Daniel Poma" className="w-full h-full rounded-full object-cover" />
               </div>
               <div className="space-y-4">
                 <div>
